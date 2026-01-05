@@ -40,7 +40,7 @@ npm run build:backend
 
 2. 前端配置文件在哪？
 
-答：在```src/config/index.js```中，具体内容都有注释
+答：在```src/config/index.js```中，具体内容有注释
 
 ### 目录介绍
 
