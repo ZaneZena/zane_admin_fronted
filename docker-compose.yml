@@ -1,0 +1,13 @@
+version: '3'
+services:
+  vue-app:
+    # 容器名称
+    container_name: my-vue-prod
+    # 构建上下文：当前目录
+    build: .
+    # 总是重启
+    restart: always
+    # 端口映射：主机端口:容器端口
+    # 访问服务器 IP:8080 即可看到页面
+    ports:
+      - "3004:80"
